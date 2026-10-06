@@ -20,4 +20,5 @@ https://github.com/polpo-system/picture-formats, one portia package each.
 `test/IrisTest.Mod`: an Oberon picture stored as t.pic and opened again (needs the desktop).
 
 Install with portia: `portia.Install iris` (and the formats: `portia.Install gif jpeg ...`).
-The license is the one of ETH Oberon: `LICENSE`.
+The license is GPL-3 (`LICENSE`); the code comes from ETH Oberon, whose license (`LICENSE.ETH`)
+asks to keep its copyright notice and conditions, which `LICENSE.ETH` does.
