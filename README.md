@@ -21,5 +21,7 @@ https://github.com/polpo-system/picture-formats, one portia package each.
 
 Install with portia: `portia.Install iris`. The converters of the formats above come with it as
 dependencies; XBM and PBM/PGM/PPM need the gadgets (gadgets-xbm, gadgets-ppm).
+`Iris.Open IrisDemo.Pict` shows the demo picture that comes with the package (the grapes of
+ETH Oberon's sample pictures).
 The license is GPL-3 (`LICENSE`); the code comes from ETH Oberon, whose license (`LICENSE.ETH`)
 asks to keep its copyright notice and conditions, which `LICENSE.ETH` does.

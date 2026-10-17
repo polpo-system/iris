@@ -12,4 +12,5 @@ converters, listed in PictureConverters of Oberon.Text. GIF, JPEG, BMP, TGA, PCX
 and XPM come with the package; XBM and PBM/PGM/PPM need the gadgets:
   portia.Install gadgets-xbm gadgets-ppm
 
-Iris.Open ~/Pictures/photo.jpg
+Iris.Open IrisDemo.Pict     a demo picture (grapes), installed with the package
+Iris.Open /path/to/photo.jpg
