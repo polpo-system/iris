@@ -8,7 +8,8 @@ Drag the picture with any mouse button to see the rest of it.
 System.Copy (in the menu) opens a second viewer of the same picture.
 
 Oberon pictures (.pic) are read by Pictures itself; other formats need their
-converters, installed with portia and listed in PictureConverters of Oberon.Text:
-  portia.Install gif jpeg bmp tga pcx ico iff xpm
+converters, listed in PictureConverters of Oberon.Text. GIF, JPEG, BMP, TGA, PCX, ICO, IFF
+and XPM come with the package; XBM and PBM/PGM/PPM need the gadgets:
+  portia.Install gadgets-xbm gadgets-ppm
 
 Iris.Open ~/Pictures/photo.jpg

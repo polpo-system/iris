@@ -2,8 +2,8 @@
 
 Iris shows pictures in a viewer of the tiling desktop of polpo (no Gadgets needed):
 
-    Iris.Open name      a picture file: Oberon pictures (.pic), and GIF, JPEG, BMP, TGA, PCX,
-                        ICO, IFF, XPM when their converters are installed
+    Iris.Open name      a picture file: Oberon pictures (.pic), GIF, JPEG, BMP, TGA, PCX, ICO,
+                        IFF and XPM
     Iris.Open ^         the selected name
     Iris.Info           in the menu: name, size and depth of the picture
 
@@ -19,6 +19,7 @@ https://github.com/polpo-system/picture-formats, one portia package each.
 
 `test/IrisTest.Mod`: an Oberon picture stored as t.pic and opened again (needs the desktop).
 
-Install with portia: `portia.Install iris` (and the formats: `portia.Install gif jpeg ...`).
+Install with portia: `portia.Install iris`. The converters of the formats above come with it as
+dependencies; XBM and PBM/PGM/PPM need the gadgets (gadgets-xbm, gadgets-ppm).
 The license is GPL-3 (`LICENSE`); the code comes from ETH Oberon, whose license (`LICENSE.ETH`)
 asks to keep its copyright notice and conditions, which `LICENSE.ETH` does.
